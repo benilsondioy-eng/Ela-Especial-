@@ -1,0 +1,6 @@
+SITE — HÁ QUALQUER COISA DE ESPECIAL EM TI
+
+O ficheiro principal é index.html. As quatro fotografias estão na pasta assets.
+Para atualizar o mesmo site no GitHub Pages, substitui o index.html do repositório por este e envia também a pasta assets com os quatro ficheiros de fotografia.
+Mantém os nomes foto-1.jpeg, foto-2.jpeg, foto-3.jpeg e foto-4.jpeg.
+O link do GitHub Pages não muda se atualizares o mesmo repositório.
