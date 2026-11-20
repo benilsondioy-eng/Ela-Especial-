@@ -10,6 +10,32 @@
 <body>
 <header class="hero"><div class="hero-inner"><div class="kicker">Para alguém que tornou os meus dias diferentes</div><h1>Há qualquer coisa<br><em>especial em ti.</em></h1><p>Não é só sobre a tua beleza. É sobre a pessoa que és, a forma como chegas até mim e como, sem fazeres esforço, consegues tornar tudo um pouco mais leve.</p><small>UMA HISTÓRIA QUE CONTINUA A SER ESCRITA ♡</small><a class="down" href="#historia">Descobre o que quero dizer <span>⌄</span></a></div></header>
 <main id="historia">
+
+  <div style="text-align:center; padding:24px 12px;">
+<button id="musicButton" style="background:#6f3b55; color:white; border-radius:30px; padding:14px 24px;">♫ Toca para ouvir a nossa música</button>
+</div> 
+  <audio id="siteMusic" src="./m%C3%BAsica.mp3" preload="none"></audio>
+<script> 
+  const music = document.getElementById('siteMusic');
+const button = document.getElementById('musicButton');
+
+button.addEventListener('click', async () => {
+  if (music.paused) {
+    try {
+      await music.play();
+      button.textContent = 'Ⅱ Pausar música';
+    } catch (error) {
+      button.textContent = 'Erro ao reproduzir';
+    }
+  } else {
+    music.pause();
+    button.textContent = '♫ Continuar música';
+  }
+});
+
+music.addEventListener('ended', () => {
+  button.textContent = '♫ Ouvir novamente';
+});
 <section class="section"><div class="head"><div class="eyebrow">Antes de qualquer palavra</div><h2>Quero falar de ti.</h2><p>Às vezes, dizer apenas “és especial” não chega. Há tantas pequenas coisas que merecem ser explicadas, tantos detalhes que não quero deixar por dizer.</p></div>
 <div class="cards">
 <article class="card"><div class="num">01</div><h3>A tua inteligência</h3><p>Admiro a tua maneira de pensar, a forma como observas as coisas e como tens sempre algo teu para acrescentar. Gosto de conversar contigo, ouvir as tuas ideias e descobrir a maneira como vês o mundo. A tua inteligência é uma das muitas coisas que me fazem querer conhecer-te cada vez mais.</p><span class="deco">✳</span></article>
