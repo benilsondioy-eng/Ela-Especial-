@@ -1,0 +1,14 @@
+SITE ELA ESPECIAL — COMO PUBLICAR
+
+Este pacote contém index.html e as quatro fotografias foto-1.jpeg a foto-4.jpeg.
+
+Os cinco ficheiros devem ficar juntos na raiz do repositório Ela-Especial-.
+
+Para atualizar o site:
+1. Abra o repositório Ela-Especial- no GitHub.
+2. Substitua o conteúdo do index.html pelo index.html deste pacote.
+3. As fotografias já existentes no repositório podem ser mantidas, desde que tenham exatamente os nomes foto-1.jpeg, foto-2.jpeg, foto-3.jpeg e foto-4.jpeg.
+4. Se preferir, carregue também as quatro fotografias deste pacote, substituindo as antigas.
+5. Faça Commit changes e aguarde a publicação do GitHub Pages.
+
+O HTML usa caminhos relativos ./foto-1.jpeg, ./foto-2.jpeg, ./foto-3.jpeg e ./foto-4.jpeg.
